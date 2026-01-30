@@ -4,18 +4,18 @@ You can start with this simple version of the README.md:
 
 ## Members
 
-- [Gabriel Axheim Gustafsson]
-- [gabaxh-2@student.ltu.se]
-
-- [Patrik Wall]
-- [walpat-1@student.ltu.se]
-
-- [Simon Pergel]
-- [isoepe-1@student.ltu.se]
+- Gabriel Axheim Gustafsson (gabaxh-2@student.ltu.se)
+- Patrik Wall (walpat-1@student.ltu.se)
+- Simon Pergel (isoepe-1@student.ltu.se)
+  
 
 ## High level specification
 
 [Description of capabilities]
+
+### Hardware Features
+
+### Software Features
 
 ## Grading
 
