@@ -43,7 +43,7 @@ NOTE: This is still not set in stone, currently talking about it and might chang
 - Allowing the TOTP to switch between different behaviour
   - Might need to terminate USB connection for this to work
   - Acting as a keyboard
-  - Acting as a USB memory
+  - Acting as a USB memory auto running a CLI?
 - *LED displaying remaining battery
 
 Features starting with * might be included depending on difficulty and time required to complete said feature
