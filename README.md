@@ -1,4 +1,5 @@
 # e7020e_project
+We shamelessly borrowed the footprint & symbol libraries used in the labs of E7020E
 
 # TOTP with automatic password input
 
