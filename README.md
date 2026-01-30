@@ -50,15 +50,12 @@ Features starting with * might be included depending on difficulty and time requ
 
 ## Grading
 - Gabriel
-  - Expected contributions towards grade 4?
-  - Expected contributions towards grade 5?
+  - Expected contributions towards grade 4 or 5.
 
 - Simon
-  - Expected contributions towards grade 4?
-  - Expected contributions towards grade 5?
+  - Expected contributions towards grade 4 or 5.
  
 - Patrik
-  - Expected contributions towards grade 4?
-  - Expected contributions towards grade 5?
+   - Expected contributions towards grade 4 or 5.
 
 
