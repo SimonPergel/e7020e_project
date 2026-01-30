@@ -7,13 +7,15 @@
 - Gabriel Axheim Gustafsson (gabaxh-2@student.ltu.se)
 - Patrik Wall (walpat-1@student.ltu.se)
 - Simon Pergel (isoepe-1@student.ltu.se)
-  
+
 
 ## High level specification
-Our TOTP fob is designed to be able to automatically input the password calculated by behaving like a keyboard when you click the button once, holding the button down will instead make it behave like a usb memory thus allowing a user to insert a new secret onto the device.
+Our TOTP fob is designed to be able to automatically input the password calculated by behaving like a keyboard when you click the button once and it's connected to the USB, holding the button down will instead make it behave like a usb memory thus allowing a user to insert a new secret onto the device. When the password has been sent the display will show a "Success" message letting the user know that it's safe to remove the device. When the device is only powered by battery the device will show the one time password on the display instead, holding down the button will instead show the secret stored on the device.
 - Button
-  - Click: calculate & act as keyboard (enters password automatically)
-  - Hold: allow insertion of secrets
+  - Click, USB powered: calculate & act as keyboard (enters password automatically)
+  - Click, battery powered: calculate password and show it on the display
+  - Hold, USB powered: allow insertion of secrets
+  - Hold, battery powered: display secret
 - Display
   - If button was clicked show password (battery)
   - If button was clicked send password (usb)
@@ -22,6 +24,7 @@ Our TOTP fob is designed to be able to automatically input the password calculat
     - Restart USB connection & act as a USB memory
     - Allow a user to store new secret
 
+NOTE: This is still not set in stone, currently talking about it and might change
 ### Hardware Features
 - 1x Real time clock (32kHz crystal)
 - 1x Button
